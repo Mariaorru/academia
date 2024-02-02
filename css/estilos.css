@@ -1,0 +1,125 @@
+/*Cambio del fondo del menú*/
+nav.bg-body-tertiary {
+    background-color: #bb7915 !important;
+}
+/*Poner la letra del menú blanca*/
+.nav-item a{
+    color: white;
+    font-style: bolder;
+    font-size: 20px;
+}
+/*Poner la letra más oscura en el menú cuando pasa el ratón por encima*/
+.nav-item a:hover{
+    color: rgb(204, 175, 97);
+}
+/*Títulos de los aparrtados*/
+.linea{
+    border-bottom: 2px solid #000000;
+}
+/*margen entre elementos*/
+.row{
+    margin:  5%;
+}
+/*margen entre el título y el contenido*/
+.borde h4{
+    margin-bottom: 10%;
+}
+/*En el formulario margen*/
+label,input{
+    margin-bottom: 3%;
+}
+/*En el formulario margen entre botones*/
+.boton{
+    margin-bottom: 3%;
+}
+/*Fondo del formulario*/
+form{
+    background-color: aliceblue;
+}
+/**/
+.icono{
+    width: 80px;
+    margin-left: 50px;
+}
+/*Cambiar estilos de las columnas del título 1 poniendolas encuadradas*/
+.introduccion{
+    background-color: rgb(238, 212, 179) ;
+}
+.mision{
+    background-color: rgb(238, 212, 179);
+}
+.oferta{
+    background-color: rgb(238, 212, 179);
+}
+div.borde div.filacademia{
+    display: flex;
+    align-items: stretch !important;
+}
+div.filacademia div.col{
+    padding: 3%;
+    margin-left: 5%;
+}
+/*Fondo de color de toda la página*/
+section {
+    background-color: #f3e7d4;
+}
+/*Cambiar estilos de las columnas del título 2 poniendole encuadrdas*/
+div.borde div.formativa{
+    display: flex;
+    align-items: stretch !important;
+}
+div.formativa div.col{
+    padding: 1%;
+    margin-left: 3%;
+}
+.desarrollo{
+    background-color: rgb(238, 212, 179);
+
+}
+.digital{
+    background-color: rgb(238, 212, 179);
+
+}   
+.ciberseguridad{
+    background-color: rgb(238, 212, 179);
+
+}
+.datos{
+    background-color: rgb(238, 212, 179);
+}
+/*Cambiar estilos de las columnas del título 3*/
+div.borde div.conocenos{
+    display: flex;
+    align-items: stretch !important;
+}
+div.conocenos div.col{
+    padding: 5%;
+    margin: 3%;
+}
+.instalaciones{
+    background-color: rgb(238, 212, 179);
+}
+.puertas{
+    background-color: rgb(238, 212, 179);
+}
+.finstalaciones{
+    margin-bottom: 5%;
+}
+.fpuertas{
+    margin-bottom: 20%;
+}
+/*Cambiar estilos de las columnas del título 4*/
+div.borde div.docentes{
+    display: flex;
+    align-items: stretch !important;
+}
+div.docentes div.col{
+    padding: 5%;
+    margin: 3%;
+}
+.elena{
+    background-color: rgb(238, 212, 179);
+}
+.marta{
+    background-color: rgb(238, 212, 179);
+}
