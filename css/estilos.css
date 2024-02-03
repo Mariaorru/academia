@@ -1,6 +1,6 @@
 /*Cambio del fondo del menú*/
 nav.bg-body-tertiary {
-    background-color: #bb7915 !important;
+    background-color: #d4a55f !important;
 }
 /*Poner la letra del menú blanca*/
 .nav-item a{
@@ -10,7 +10,7 @@ nav.bg-body-tertiary {
 }
 /*Poner la letra más oscura en el menú cuando pasa el ratón por encima*/
 .nav-item a:hover{
-    color: rgb(204, 175, 97);
+    color: rgb(237, 214, 151);
 }
 /*Títulos de los aparrtados*/
 .linea{
@@ -34,7 +34,7 @@ label,input{
 }
 /*Fondo del formulario*/
 form{
-    background-color: aliceblue;
+    background-color: #d4a55f;
 }
 /**/
 .icono{
@@ -123,3 +123,16 @@ div.docentes div.col{
 .marta{
     background-color: rgb(238, 212, 179);
 }
+.felena{
+    margin-top: 5%;
+}
+.fmarta{
+    margin-top: 5%;
+}
+
+
+/* NO ME AGRANDA EL ICONO
+div.col i.icono{
+    font-size: 50px;
+}
+*/
