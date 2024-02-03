@@ -32,14 +32,16 @@ label,input{
 .boton{
     margin-bottom: 3%;
 }
-/*Fondo del formulario*/
-form{
-    background-color: #d4a55f;
-}
+
 /**/
 .icono{
     width: 80px;
     margin-left: 50px;
+}
+/*Iconos más grandes*/
+div.col i.icono{
+    font-size: 35px;
+    padding-right: 30px;
 }
 /*Cambiar estilos de las columnas del título 1 poniendolas encuadradas*/
 .introduccion{
@@ -61,7 +63,7 @@ div.filacademia div.col{
 }
 /*Fondo de color de toda la página*/
 section {
-    background-color: #f3e7d4;
+    background-color:white;
 }
 /*Cambiar estilos de las columnas del título 2 poniendole encuadrdas*/
 div.borde div.formativa{
@@ -129,10 +131,17 @@ div.docentes div.col{
 .fmarta{
     margin-top: 5%;
 }
-
-
-/* NO ME AGRANDA EL ICONO
-div.col i.icono{
-    font-size: 50px;
+/*Fondo del formulario*/
+form{
+    background-color: #d4a55f;
 }
-*/
+/*Cambio del fondo del footer*/
+footer{
+    background-color: rgb(216, 212, 212);
+}
+div.col h5{
+    padding-top: 50px;
+    color: #d4a55f;
+}
+
+
