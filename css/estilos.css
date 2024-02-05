@@ -1,6 +1,6 @@
 /*Cambio del fondo del menú*/
 nav.bg-body-tertiary {
-    background-color: #d4a55f !important;
+    background-color:#d4a55f !important;
 }
 /*Poner la letra del menú blanca*/
 .nav-item a{
@@ -12,7 +12,7 @@ nav.bg-body-tertiary {
 .nav-item a:hover{
     color: rgb(237, 214, 151);
 }
-/*Títulos de los aparrtados*/
+/*Títulos de los apartados*/
 .linea{
     border-bottom: 2px solid #000000;
 }
@@ -48,10 +48,10 @@ div.col i.icono{
     background-color: rgb(238, 212, 179) ;
 }
 .mision{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(177, 136, 82);
 }
 .oferta{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(197, 140, 86);
 }
 div.borde div.filacademia{
     display: flex;
@@ -79,15 +79,15 @@ div.formativa div.col{
 
 }
 .digital{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(177, 136, 82);
 
 }   
 .ciberseguridad{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(197, 140, 86);
 
 }
 .datos{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(177, 136, 82);
 }
 /*Cambiar estilos de las columnas del título 3*/
 div.borde div.conocenos{
@@ -99,7 +99,7 @@ div.conocenos div.col{
     margin: 3%;
 }
 .instalaciones{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(197, 140, 86);
 }
 .puertas{
     background-color: rgb(238, 212, 179);
@@ -120,10 +120,10 @@ div.docentes div.col{
     margin: 3%;
 }
 .elena{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(177, 136, 82);
 }
 .marta{
-    background-color: rgb(238, 212, 179);
+    background-color: rgb(197, 140, 86);
 }
 .felena{
     margin-top: 5%;
@@ -133,7 +133,14 @@ div.docentes div.col{
 }
 /*Fondo del formulario*/
 form{
-    background-color: #d4a55f;
+    background-color: #e64e4e;
+    font-size: 25px;
+
+}
+form input,textarea{
+    border: 2px solid black;
+    border-radius: 5%;
+    
 }
 /*Cambio del fondo del footer*/
 footer{
@@ -141,7 +148,20 @@ footer{
 }
 div.col h5{
     padding-top: 50px;
-    color: #d4a55f;
+    color: #e64e4e;
 }
 
 
+.flotante {
+    display:scroll;
+        position:fixed;
+        bottom:100px;
+        right:0px;
+        border: 2px solid black;
+        border-radius: 50%;
+        font-size: 40px;
+        padding: 0px 15px ;
+}
+.flotante i{
+    color: black;
+}
