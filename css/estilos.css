@@ -1,6 +1,6 @@
 /*Cambio del fondo del menú*/
 nav.bg-body-tertiary {
-    background-color:#d4a55f !important;
+    background-color:#a0937d !important;
 }
 /*Poner la letra del menú blanca*/
 .nav-item a{
@@ -10,7 +10,7 @@ nav.bg-body-tertiary {
 }
 /*Poner la letra más oscura en el menú cuando pasa el ratón por encima*/
 .nav-item a:hover{
-    color: rgb(237, 214, 151);
+    color: #f6e6cb;
 }
 /*Títulos de los apartados*/
 .linea{
@@ -45,13 +45,13 @@ div.col i.icono{
 }
 /*Cambiar estilos de las columnas del título 1 poniendolas encuadradas*/
 .introduccion{
-    background-color: rgb(238, 212, 179) ;
+    background-color:#e7d4b5 ;
 }
 .mision{
-    background-color: rgb(177, 136, 82);
+    background-color: #f6e6cb;
 }
 .oferta{
-    background-color: rgb(197, 140, 86);
+    background-color: #e3cdc1;
 }
 div.borde div.filacademia{
     display: flex;
@@ -75,19 +75,23 @@ div.formativa div.col{
     margin-left: 3%;
 }
 .desarrollo{
-    background-color: rgb(238, 212, 179);
+    background-color:#e7d4b5 ;
+    ;
 
 }
 .digital{
-    background-color: rgb(177, 136, 82);
+    background-color:#e7d4b5 ;
+
 
 }   
 .ciberseguridad{
-    background-color: rgb(197, 140, 86);
+    background-color:#e7d4b5 ;
+
 
 }
 .datos{
-    background-color: rgb(177, 136, 82);
+    background-color:#e7d4b5 ;
+
 }
 /*Cambiar estilos de las columnas del título 3*/
 div.borde div.conocenos{
@@ -99,10 +103,12 @@ div.conocenos div.col{
     margin: 3%;
 }
 .instalaciones{
-    background-color: rgb(197, 140, 86);
+    background-color: #f6e6cb;
+
 }
 .puertas{
-    background-color: rgb(238, 212, 179);
+    background-color: #f6e6cb;
+
 }
 .finstalaciones{
     margin-bottom: 5%;
@@ -120,10 +126,12 @@ div.docentes div.col{
     margin: 3%;
 }
 .elena{
-    background-color: rgb(177, 136, 82);
+    background-color: #e3cdc1;
+
 }
 .marta{
-    background-color: rgb(197, 140, 86);
+    background-color: #e3cdc1;
+
 }
 .felena{
     margin-top: 5%;
@@ -133,7 +141,7 @@ div.docentes div.col{
 }
 /*Fondo del formulario*/
 form{
-    background-color: #e64e4e;
+    background-color:#e4d3b5; 
     font-size: 25px;
 
 }
@@ -144,11 +152,11 @@ form input,textarea{
 }
 /*Cambio del fondo del footer*/
 footer{
-    background-color: rgb(216, 212, 212);
+    background-color:#a0937d; 
 }
 div.col h5{
     padding-top: 50px;
-    color: #e64e4e;
+    color: black;
 }
 
 
