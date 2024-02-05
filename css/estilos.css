@@ -112,9 +112,11 @@ div.conocenos div.col{
 }
 .finstalaciones{
     margin-bottom: 5%;
+    border-radius: 5%;
 }
 .fpuertas{
     margin-bottom: 20%;
+    border-radius: 5%;
 }
 /*Cambiar estilos de las columnas del título 4*/
 div.borde div.docentes{
@@ -135,9 +137,11 @@ div.docentes div.col{
 }
 .felena{
     margin-top: 5%;
+    border-radius: 5%;
 }
 .fmarta{
     margin-top: 5%;
+    border-radius: 5%;
 }
 /*Fondo del formulario*/
 form{
