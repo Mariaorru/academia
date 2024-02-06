@@ -7,6 +7,7 @@ nav.bg-body-tertiary {
     color: white;
     font-style: bolder;
     font-size: 20px;
+    text-decoration: none;
 }
 /*Poner la letra más oscura en el menú cuando pasa el ratón por encima*/
 .nav-item a:hover{
@@ -163,7 +164,7 @@ div.col h5{
     color: black;
 }
 
-
+/*Icono flotante para volver hacia arriba*/
 .flotante {
     display:scroll;
         position:fixed;
@@ -176,4 +177,42 @@ div.col h5{
 }
 .flotante i{
     color: black;
+}
+/*Media queries*/
+.col-sm{
+    width: 25%;
+}
+.inteligencia, .aplicaciones, .redes, .proyectos, .ciber{
+    width: 90%;
+    text-align: center;
+    margin: 50px;
+}
+.inteligencia img{
+    width: 500px;
+    border-radius: 5%;
+}
+.aplicaciones img{
+    width: 500px;
+    border-radius: 5%;
+
+}
+.redes img{
+    width: 500px;
+    border-radius: 5%;
+
+}
+.proyectos img{
+    width: 400px;
+    border-radius: 5%;
+
+}
+.ciber img{
+    width: 400px;
+    border-radius: 5%;
+
+}
+.fin{
+    width: 90%;
+    text-align: center;
+    margin: 50px;
 }
