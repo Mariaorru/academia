@@ -62,10 +62,10 @@ div.filacademia div.col{
     padding: 3%;
     margin-left: 5%;
 }
-/*Fondo de color de toda la página*/
+/*Fondo de color de toda la página
 section {
     background-color:white;
-}
+}*/
 /*Cambiar estilos de las columnas del título 2 poniendole encuadrdas*/
 div.borde div.formativa{
     display: flex;
@@ -234,10 +234,9 @@ html {
     footer {
     margin-top: auto;
   }
-  /*fondo página novedades*/
-  .fondo2{
-    background-color: #f6e6cb;
-  }
+
+
+
   form{
     padding: 20px 0px;
   }
